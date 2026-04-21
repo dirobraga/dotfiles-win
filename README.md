@@ -1,4 +1,4 @@
-# Configuração do meu Windows 11 Home
+# Configuração do meu Windows 11
 
 Minhas configurações, programas e debloat para deixar o Windows 11 do jeito que eu gosto.
 
