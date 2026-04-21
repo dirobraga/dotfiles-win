@@ -25,7 +25,7 @@ irm "https://christitus.com/win" | iex
 7. Pronto! =D
 > Todos os programas, tweaks e configurações serão aplicados automaticamente.
 
-> [!NOTE] Atenção!
+> Atenção!
 > Caso queria adicionar/tirar algum aplicativo ou opção, basta marcar/desmarcar o app ou tweak da sua preferência.
 
 
