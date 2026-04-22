@@ -26,10 +26,9 @@ irm "https://christitus.com/win" | iex
 7. Pronto! =D
 > Todos os programas, tweaks e configurações serão aplicados automaticamente.
 
-> [!WARNING]
-> 
-> Caso queria adicionar/tirar algum aplicativo ou opção, basta marcar/desmarcar o app ou tweak da sua preferência.
-
+> [!CAUTION]
+> Isso desabilita algumas opções que talvez você ache importante,
+> leia e desmarque o que você não queira que seja desabilitado!
 
 ## 2. Spotify sem ad (SpotX)
 > link do git: https://github.com/SpotX-Official/SpotX
