@@ -18,7 +18,6 @@ Este utilitário é uma compilação de tarefas do Windows que realizo em cada s
 irm "https://christitus.com/win" | iex
 ```
 > Aba "install" será os programas que serão baixados
-
 > Aba "Tweaks" será configurações do Windows
 3. Clique na engrenagem > import;
 4. Selecione o arquivo **"debloat-config.json"**;
