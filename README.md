@@ -17,15 +17,14 @@ Este utilitário é uma compilação de tarefas do Windows que realizo em cada s
 ```bash
 irm "https://christitus.com/win" | iex
 ```
-> Aba "install" será os programas que serão baixados
+> Aba "install" será os programas que serão baixados  
 > Aba "Tweaks" será configurações do Windows
 3. Clique na engrenagem > import;
 4. Selecione o arquivo **"debloat-config.json"**;
 5. Na aba install, clique em **"Install/Upgrade aplications"** e espera a conclusão;
 6. Na aba Tweaks, clique em **"Run tweaks"** e espere a conclusão.
 7. Pronto! =D
-> Todos os programas, tweaks e configurações serão aplicados automaticamente.
-
+> Todos os programas, tweaks e configurações serão aplicados automaticamente.  
 > Atenção!
 > Caso queria adicionar/tirar algum aplicativo ou opção, basta marcar/desmarcar o app ou tweak da sua preferência.
 
