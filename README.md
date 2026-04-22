@@ -44,6 +44,7 @@ iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/SpotX/ref
 
 ## 3. Importando perfis do Afterbuner e Rivaturner (Overlay para jogos)
 Meu perfil do MSI Afterburner e RivaTuner com overlay customizado exibindo FPS, uso e temperatura de GPU/CPU, e uso de memória RAM. Ative/desative com **END** e alterne  com **PgUp/PgDn**.
+> Caso tenha seguido os passos, o MSI Afterburner e RivaTurner já estarão instalados.
 
 ![overlay](./assets/OSD.png)
 
