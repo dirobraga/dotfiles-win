@@ -44,13 +44,10 @@ Um ponteiro do mouse mais bonito e animado =D
 > link original: https://vsthemes.org/en/cursors/black/36701-windows-11-cursors-concept.html
 
 1. Copie a pasta do **cursor** e salve no seu PC;
-2. Vá em **Configurações do mouse**;
-3. Vá em **Configurações adicionais do mouse**;
-4. Aba **Ponteiro**;
-5. Substitua os ponteiros de acordo com sua preferência.
-    > [!IMPORTANT]
-    > **NÃO** apague a pasta **cursor** do seu PC,  
-    > isso irá desconfigurar o ponteiro e voltará ao padrão.
+2. Clique com o botão direito no arquivo "Install.inf" na pasta do tema escolhido;
+3. Na aba Ponteiro, selecione o tema instalado na seção **esquema**
+4. Clique em **aplicar** e **OK**;
+5. Pronto =D
 
 ## 3. Spotify sem ad (SpotX)
 
