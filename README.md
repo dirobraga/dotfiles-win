@@ -44,7 +44,7 @@ Um ponteiro do mouse mais bonito e animado =D
 > link original: https://vsthemes.org/en/cursors/black/36701-windows-11-cursors-concept.html
 
 1. Copie a pasta do **cursor** e salve no seu PC;
-2. Clique com o botão direito no arquivo "Install.inf" na pasta do tema escolhido;
+2. Clique com o botão direito no arquivo "Install.inf" na pasta do tema escolhido e **instalar**;
 3. Na aba Ponteiro, selecione o tema instalado na seção **esquema**
 4. Clique em **aplicar** e **OK**;
 5. Pronto =D
