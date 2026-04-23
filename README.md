@@ -2,7 +2,10 @@
 
 Minhas configurações, programas e debloat para deixar o Windows 11 do jeito que eu gosto, muito mais clean, sem IA slop de copilot e outras lixeiras da microsoft.
 
+![alt text](assets/meu-win.png)
+
 ## 1. Chris Titus Tech's Windows Utility
+
 > Link do git: https://github.com/christitustech/winutil
 
 Este utilitário é uma compilação de tarefas do Windows que realizo em cada sistema Windows que utilizo. Ele visa agilizar instalações, remover programas desnecessários com ajustes, solucionar problemas com configurações e corrigir atualizações do Windows.
@@ -18,9 +21,11 @@ Este utilitário é uma compilação de tarefas do Windows que realizo em cada s
 irm "https://christitus.com/win" | iex
 ```
 
-> [!IMPORTANT]
+[!IMPORTANT]>
+
 > Aba "install" será os programas que serão baixados  
 > Aba "Tweaks" será configurações do Windows
+
 3. Clique na engrenagem > import;
 4. Selecione o arquivo **"debloat-config.json"**;
 5. Na aba install, clique em **"Install/Upgrade aplications"** e espera a conclusão;
@@ -31,19 +36,41 @@ irm "https://christitus.com/win" | iex
 > Isso desabilita algumas opções que talvez você ache importante,
 > leia e desmarque o que você não queira que seja desabilitado!
 
-## 2. Spotify sem ad (SpotX)
+## 2. Ponteiro do Mouse
+
+Um ponteiro do mouse mais bonito e animado =D
+
+![ponteiro](<assets/Windows 11 Cursors Design Preview.png>)
+
+> link original: https://vsthemes.org/en/cursors/black/36701-windows-11-cursors-concept.html
+
+1. Copie a pasta do **cursor** e salve no seu PC;
+2. Vá em **Configurações do mouse**;
+3. Vá em **Configurações adicionais do mouse**;
+4. Aba **Ponteiro**;
+5. Substitua os ponteiros de acordo com sua preferência.
+    > [!IMPORTANT]
+    > **NÃO** apague a pasta **cursor** do seu PC,  
+    > isso irá desconfigurar o ponteiro e voltará ao padrão.
+
+## 3. Spotify sem ad (SpotX)
+
 > link do git: https://github.com/SpotX-Official/SpotX
 
 1. Abra o PowerShell ou Terminal (Windows 11) como **administrador**;
 2. Cole o comando abaixo;
+
 ```bash
 iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/SpotX/refs/heads/main/run.ps1') } -new_theme"
 ```
+
 3. Reponda as perguntas de acordo com suas preferências;
 4. Aproveite! =D
 
-## 3. Importando perfis do Afterbuner e Rivaturner (Overlay para jogos)
-Meu perfil do MSI Afterburner e RivaTuner com overlay customizado exibindo FPS, uso e temperatura de GPU/CPU, e uso de memória RAM. Ative/desative com **END** e alterne  com **PgUp/PgDn**.
+## 4. Importando perfis do Afterbuner e Rivaturner (Overlay para jogos)
+
+Meu perfil do MSI Afterburner e RivaTuner com overlay customizado exibindo FPS, uso e temperatura de GPU/CPU, e uso de memória RAM. Ative/desative com **END** e alterne com **PgUp/PgDn**.
+
 > Caso tenha seguido os passos, o MSI Afterburner e RivaTurner já estarão instalados.
 
 ![overlay](./assets/OSD.png)
@@ -51,6 +78,5 @@ Meu perfil do MSI Afterburner e RivaTuner com overlay customizado exibindo FPS, 
 1. Copie todos os arquivos da pasta **"./backups/afterburner"** e cole em **"C:\Program Files (x86)\MSI Afterburner\Profiles"**;
 2. Copie todos os arquivos da pasta **"./backups/rivaturner"** e cole em **"C:\Program Files (x86)\RivaTuner Statistics Server\Profiles"**.
 3. Pronto! =D
+
 > Atalho **END** para ativar/desativar overlay e **PgUp** e **PgDn** para alterar.
-
-
