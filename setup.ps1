@@ -152,7 +152,7 @@ function Install-Cursor {
 
     Write-Step "Cursor do mouse customizado"
 
-    $infPath = "$PSScriptRoot\cursor\Install.inf"
+    $infPath = "$PSScriptRoot\cursor\dark\Install.inf"
 
     if (-not (Test-Path $infPath)) {
         Write-Fail "Arquivo não encontrado: $infPath"
