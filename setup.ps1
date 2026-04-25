@@ -7,7 +7,6 @@ param(
     [switch]$SkipWinUtil,
     [switch]$SkipSpotX,
     [switch]$SkipCursor,
-    [switch]$SkipWallpaper,
     [switch]$SkipAfterburner,
     [switch]$SkipRivaTuner
 )
@@ -174,51 +173,7 @@ function Install-Cursor {
 }
 
 # =============================================================================
-# PASSO 4 - WALLPAPER
-# =============================================================================
-
-function Set-Wallpaper {
-    if ($SkipWallpaper) { Write-Skip "Wallpaper"; return }
-
-    Write-Step "Wallpaper"
-
-    $wallpaperDir = "$PSScriptRoot\wallpaper"
-
-    if (-not (Test-Path $wallpaperDir)) {
-        Write-Fail "Pasta não encontrada: $wallpaperDir"
-        return
-    }
-
-    # Pega a primeira imagem encontrada na pasta
-    $wallpaperFile = Get-ChildItem -Path $wallpaperDir `
-        -Include *.jpg, *.jpeg, *.png `
-        -Recurse | Select-Object -First 1
-
-    if (-not $wallpaperFile) {
-        Write-Fail "Nenhuma imagem encontrada na pasta wallpaper."
-        return
-    }
-
-    try {
-        Add-Type -TypeDefinition @"
-using System;
-using System.Runtime.InteropServices;
-
-public class Wallpaper {
-    [DllImport("user32.dll", CharSet = CharSet.Auto)]
-    public static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni);
-}
-"@
-        [Wallpaper]::SystemParametersInfo(0x0014, 0, $wallpaperFile.FullName, 0x0003) | Out-Null
-        Write-Ok "Wallpaper definido: $($wallpaperFile.Name)"
-    }
-    catch {
-        Write-Fail "Erro ao definir wallpaper: $_"
-    }
-}
-
-# =============================================================================
-# PASSO 5 - PERFIS DO MSI AFTERBURNER
+# PASSO 4 - PERFIS DO MSI AFTERBURNER
 # =============================================================================
 
 function Copy-AfterburnerProfiles {
@@ -296,14 +251,12 @@ Write-Host "  Flags ativas:" -ForegroundColor DarkGray
 if ($SkipWinUtil)     { Write-Host "    -SkipWinUtil"     -ForegroundColor DarkGray }
 if ($SkipSpotX)       { Write-Host "    -SkipSpotX"       -ForegroundColor DarkGray }
 if ($SkipCursor)      { Write-Host "    -SkipCursor"      -ForegroundColor DarkGray }
-if ($SkipWallpaper)   { Write-Host "    -SkipWallpaper"   -ForegroundColor DarkGray }
 if ($SkipAfterburner) { Write-Host "    -SkipAfterburner" -ForegroundColor DarkGray }
 if ($SkipRivaTuner)   { Write-Host "    -SkipRivaTuner"   -ForegroundColor DarkGray }
 
 Install-WinUtil
 Install-SpotX
 Install-Cursor
-Set-Wallpaper
 Copy-AfterburnerProfiles
 Copy-RivaTunerProfiles
 
