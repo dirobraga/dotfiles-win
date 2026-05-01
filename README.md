@@ -60,21 +60,7 @@ Um ponteiro do mouse mais bonito e animado =D
 4. Clique em **aplicar** e **OK**;
 5. Pronto =D
 
-## 3. Spotify sem ad (SpotX)
-
-> link do git: https://github.com/SpotX-Official/SpotX
-
-1. Abra o PowerShell ou Terminal (Windows 11) como **administrador**;
-2. Cole o comando abaixo;
-
-```bash
-iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/SpotX/refs/heads/main/run.ps1') } -new_theme"
-```
-
-3. Reponda as perguntas de acordo com suas preferências;
-4. Aproveite! =D
-
-## 4. Importando perfis do Afterbuner e Rivaturner (Overlay para jogos)
+## 3. Importando perfis do Afterbuner e Rivaturner (Overlay para jogos)
 
 Meu perfil do MSI Afterburner e RivaTuner com overlay customizado exibindo FPS, uso e temperatura de GPU/CPU, e uso de memória RAM.
 
