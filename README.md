@@ -10,8 +10,7 @@ Minhas configurações, programas e debloat para deixar o Windows 11 do jeito qu
 |---|-------|-----------|
 | 1 | [Chris Titus Winutil](#1-chris-titus-techs-windows-utility) | Debloat, tweaks e instalação de programas em lote |
 | 2 | [Ponteiro do Mouse](#2-ponteiro-do-mouse) | Cursor animado estilo Windows 11 Concept |
-| 3 | [Spotify sem anúncio (SpotX)](#3-spotify-sem-ad-spotx) | Remove ads do Spotify via PowerShell |
-| 4 | [Afterburner + RivaTuner Overlay](#4-importando-perfis-do-afterbuner-e-rivaturner-overlay-para-jogos) | Perfis de overlay customizado com FPS, GPU, CPU e RAM |
+| 3 | [Afterburner + RivaTuner Overlay](#4-importando-perfis-do-afterbuner-e-rivaturner-overlay-para-jogos) | Perfis de overlay customizado com FPS, GPU, CPU e RAM |
 
 ---
 
